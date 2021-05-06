@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
   
 app.post("/post", (req, res) => {
-  console.log("Connected to React");
+  console.log("Connected to React done!!");
   res.redirect("/");
 });
   
